@@ -12,4 +12,24 @@ app.controller("wordController", function($scope){
   	"Baltimore", "Philedelphia", "Buffalo", "Raleigh", "Charleston", "Nashville",
   	"Cincinnati", "Cleveland", "Pittsburgh", "Providence", "Austin", "Washington D.C.", "Huntsville"
   ];
+
+  $scope.showWord = function(places, $index) {
+    var city = $scope.places.splice($index, 1);
+    console.log(city);
+  }
 });
+
+
+// $scope.removeItem = function(letsRemove, $index){
+//   console.log(letsRemove);
+//   console.log($index);
+// var x =$scope.items.splice($index, 1);
+// $scope.completed.push(x[0]);
+// };
+
+//
+// app.controller('inputCtrl', function($scope, redditFactory){
+//   $scope.sendName = function(subName) {
+//     console.log(subName);
+
+// <button type="button" ng-click = "sendName(subredditName)">Search For A Subreddit</button>
