@@ -14,10 +14,8 @@ app.controller("wordController", function($scope){
   ];
 
   $scope.showWord = function(places){
-
-  var rand = $scope.places[Math.floor(Math.random() * $scope.places.length)];
-
-  console.log(rand);
+    var randomCity = $scope.places[Math.floor(Math.random() * $scope.places.length)];
+  console.log(randomCity);
 };
 });
 
