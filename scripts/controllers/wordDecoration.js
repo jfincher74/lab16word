@@ -1,1 +1,1 @@
-var wordModule = angular.module("wordModule", []);
+var app = angular.module("wordModule", []);

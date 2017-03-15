@@ -1,4 +1,4 @@
-var wordModule = angular.module("wordModule", []);
+var app = angular.module("wordModule", []);
 
 var places = [
 	"Detroit", "Denver", "Atlanta", "Dallas", "Birmingham", "Houston",
