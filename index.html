@@ -2,22 +2,24 @@
 <html>
 <head>
 	<title>Lab 16</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
 	<script src="scripts/module/module.js"></script>
 </head>
 	<body ng-app="wordModule" ng-controller="wordController">
 
-<div>
-	<div>
+<section>
 		<button type="button" ng-click="showWord(word)" name="Words">Words</button>
-		<button type="button" name="Words With Decorations">Words With Decorations</button>
-		<button type="button" name="More Words">More Words</button>
-		<button type="button" name="More Words With Decorations">More Words With Decorations</button>
-	</div>
-
-	<p ng-repeat="city in randomArray">{{ city }}</p>
-
-</div>
+		<button type="button" ng-click="showWord2(word)" name="Words With Decorations">Words With Decorations</button>
+		<button type="button" ng-click="showWord(word)" name="More Words">More Words</button>
+		<button type="button" ng-click="showWord(word)" name="More Words With Decorations">More Words With Decorations</button>
+</section>
+<section id="display">
+	<span ng-repeat="city in randomArray" class="decorate1"> {{ city }} </span>
+	<span ng-repeat="city in randomArray2" class="decorate2"> {{ city }} </span>
+	<span ng-repeat="city in randomArray3" class="decorate3"> {{ city }} </span>
+	<span ng-repeat="city in randomArray4" class="decorate4"> {{ city }} </span>
+</section>
 
 </body>
 </html>

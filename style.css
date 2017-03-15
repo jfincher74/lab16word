@@ -1,0 +1,40 @@
+body
+	{
+		background-color: gray;
+	}
+section
+	{
+		position: absolute;
+		top: 200px;
+		left: 375px;
+	}
+#display
+	{
+		position: absolute;
+		top: 400px;
+		left: 155px;
+		width: 800px;
+		overflow-wrap: normal;
+	}
+
+.decorate1
+	{
+		font-family: cursive;
+		font-size: 24px; 
+	}
+.decorate2
+	{
+		font-family: cursive;
+		font-size: 24px;
+		color: red;
+	}
+.decorate3
+	{
+		font-family: cursive;
+		font-size: 24px;
+	}
+.decorate4
+	{
+		font-family: arial;
+		font-size: 36px;
+	}
