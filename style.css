@@ -19,28 +19,30 @@ h1
 		position: absolute;
 		top: 400px;
 		left: 155px;
-		width: 800px;
+		width: 900px;
 		overflow-wrap: normal;
 	}
 
 .decorate1
 	{
-		font-family: cursive;
-		font-size: 24px; 
+		font-family: sans-serif;
+		font-size: 36px;
 	}
 .decorate2
 	{
 		font-family: cursive;
-		font-size: 24px;
+		font-size: 36px;
 		color: red;
 	}
 .decorate3
 	{
-		font-family: cursive;
+		font-family: sans-serif;
 		font-size: 24px;
 	}
 .decorate4
 	{
-		font-family: sans-serif;
+		font-family: cursive;
 		font-size: 36px;
+		border-width: 4px;
+		border: solid black;
 	}

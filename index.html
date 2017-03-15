@@ -15,10 +15,10 @@
 		<button type="button" ng-click="showWord4(word)" name="More Words With Decorations">More Words With Decorations</button>
 </section>
 <section id="display">
-	<span ng-repeat="city in randomArray" class="decorate1"> {{ city }} </span>
-	<span ng-repeat="city in randomArray2" class="decorate2"> {{ city }} </span>
-	<span ng-repeat="city in randomArray3" class="decorate3"> {{ city }} </span>
-	<span ng-repeat="city in randomArray4" class="decorate4"> {{ city }} </span>
+	<span ng-repeat="city in randomArray track by $index" class="decorate1"> {{ city }} </span>
+	<span ng-repeat="city in randomArray2 track by $index" class="decorate2"> {{ city }} </span>
+	<span ng-repeat="city in randomArray3 track by $index" class="decorate3"> {{ city }} </span>
+	<span ng-repeat="city in randomArray4 track by $index" class="decorate4"> {{ city }} </span>
 </section>
 
 </body>
