@@ -4,15 +4,16 @@
 	<title>Lab 16</title>
 </head>
 <!-- "ng-app" initializes the mechanisms to display different viewers. -->
-<body ng-app>
+<body ng-app="wordModule" ng-controller="wordController">
 
-<div ng-model = "wordModule">
+<div>
 	<div>
 		<button type="button" name="Words">Words</button>
 		<button type="button" name="Words With Decorations">Words With Decorations</button>
 		<button type="button" name="More Words">More Words</button>
 		<button type="button" name="More Words With Decorations">More Words With Decorations</button>
 	</div>
+	<p ng-repeat="place in places">{{ place }}</p>
 </div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
