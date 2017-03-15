@@ -7,12 +7,12 @@
 	<script src="scripts/module/module.js"></script>
 </head>
 	<body ng-app="wordModule" ng-controller="wordController">
-
+<h1>Add words, my friend!</h1>
 <section>
 		<button type="button" ng-click="showWord(word)" name="Words">Words</button>
 		<button type="button" ng-click="showWord2(word)" name="Words With Decorations">Words With Decorations</button>
-		<button type="button" ng-click="showWord(word)" name="More Words">More Words</button>
-		<button type="button" ng-click="showWord(word)" name="More Words With Decorations">More Words With Decorations</button>
+		<button type="button" ng-click="showWord3(word)" name="More Words">More Words</button>
+		<button type="button" ng-click="showWord4(word)" name="More Words With Decorations">More Words With Decorations</button>
 </section>
 <section id="display">
 	<span ng-repeat="city in randomArray" class="decorate1"> {{ city }} </span>
