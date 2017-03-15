@@ -4,14 +4,16 @@
 	<title>Lab 16</title>
 </head>
 <!-- "ng-app" initializes the mechanisms to display different viewers. -->
-<body>
+<body ng-app>
 
+<div ng-model = "wordModule">
 	<div>
 		<button type="button" name="Words">Words</button>
 		<button type="button" name="Words With Decorations">Words With Decorations</button>
 		<button type="button" name="More Words">More Words</button>
 		<button type="button" name="More Words With Decorations">More Words With Decorations</button>
-	<div>
+	</div>
+</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
 	<script src="scripts/controllers/word.js"></script>
