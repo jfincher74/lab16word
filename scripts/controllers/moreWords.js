@@ -1,0 +1,1 @@
+var wordModule = angular.module("wordModule", []);
